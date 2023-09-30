@@ -1,0 +1,168 @@
+@import url("https://fonts.cdnfonts.com/css/hanken-grotesk");
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  width: 1440px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  width: fit-content;
+  -webkit-box-shadow: 24px 13px 69px -28px rgba(176, 187, 191, 1);
+  -moz-box-shadow: 24px 13px 69px -28px rgba(176, 187, 191, 1);
+  box-shadow: 24px 13px 69px -28px rgba(176, 187, 191, 1);
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 446px;
+  border-radius: 20px;
+  background: rgb(102, 66, 254);
+  background: linear-gradient(
+    180deg,
+    rgba(102, 66, 254, 1) 20%,
+    rgba(50, 43, 233, 1) 100%
+  );
+}
+
+.container1-head {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px;
+  color: hsl(241, 100%, 89%);
+}
+
+.circle {
+  display: flex;
+  width: 160px;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 160px;
+  flex-direction: column;
+  background: rgb(74, 36, 207);
+  background: linear-gradient(
+    180deg,
+    rgba(74, 36, 207, 1) 49%,
+    rgba(70, 51, 237, 1) 100%
+  );
+}
+
+.marks-total {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.marks-outof {
+  font-size: 15px;
+  font-weight: 700;
+  color: hsla(241, 100%, 89%, 60%);
+}
+
+.grade {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+
+.description {
+  font-size: 16px;
+  width: 250px;
+  font-weight: 700;
+  margin: -10px 44px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  background-color: white;
+  height: 426px;
+  justify-content: space-between;
+  padding: 10px 44px;
+  border-radius: 20px;
+}
+
+.container2-head {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 26px;
+  color: hsl(224, 30%, 27%);
+}
+
+.container-reaction {
+  display: flex;
+  border-radius: 0.4rem;
+  color: hsl(0, 100%, 67%);
+  padding: 12px 10px;
+  transform: translateY(-08px);
+  justify-content: space-around;
+  background-color: hsla(0, 100%, 67%, 10%);
+  flex-direction: row;
+}
+
+.container-memory {
+  display: flex;
+  border-radius: 0.4rem;
+  color: hsl(39, 100%, 56%);
+  padding: 12px 10px;
+  width: 200px;
+  justify-content: space-between;
+  transform: translateY(-20px);
+  justify-content: space-around;
+  background-color: hsla(39, 100%, 56%, 14%);
+  flex-direction: row;
+}
+
+.container-verbal {
+  display: flex;
+  border-radius: 0.4rem;
+  color: #1ec19c;
+  padding: 12px 10px;
+  width: 200px;
+  justify-content: space-between;
+  transform: translateY(-30px);
+  justify-content: space-around;
+  background-color: rgba(30, 193, 156, 10%);
+  flex-direction: row;
+}
+
+.container-visual {
+  display: flex;
+  border-radius: 0.4rem;
+  color: #1125d6;
+  padding: 12px 10px;
+  width: 200px;
+  justify-content: space-between;
+  transform: translateY(-40px);
+  justify-content: space-around;
+  background-color: rgba(17, 37, 214, 10%);
+  flex-direction: row;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  transform: translateY(-38px);
+  padding: 10px 10px;
+  background: hsl(224, 30%, 27%);
+  border-radius: 20px;
+}
