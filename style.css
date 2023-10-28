@@ -166,3 +166,28 @@ body {
   background: hsl(224, 30%, 27%);
   border-radius: 20px;
 }
+
+@media 
+ screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    -webkit-box-shadow: 24px 13px 69px -28px rgba(176, 187, 191, 1);
+    -moz-box-shadow: 24px 13px 69px -28px rgba(176, 187, 191, 1);
+    box-shadow: 24px 13px 69px -28px rgba(176, 187, 191, 1);
+  }
+
+  body {
+    font-family: "Hanken Grotesk", sans-serif;
+    width: 375px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+}
